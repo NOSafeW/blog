@@ -1,0 +1,11 @@
+# Hugo build output
+/public/
+/resources/_gen/
+.hugo_build.lock
+
+# 本地笔记 / 规划（不提交）
+NOTES.md
+
+# OS / editor
+.DS_Store
+Thumbs.db

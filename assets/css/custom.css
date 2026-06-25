@@ -1,0 +1,31 @@
+/* 首页文章列表「阅读更多」按钮 —— 做成显眼的实心按钮 */
+.read-more {
+  margin-top: 1.1rem;
+}
+.read-more a {
+  display: inline-block;
+  background: #2563eb;
+  color: #fff !important;
+  padding: 0.55rem 1.4rem;
+  border-radius: 8px;
+  font-weight: 600;
+  text-decoration: none !important;
+  border: none;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, .15);
+  transition: background .15s ease, transform .15s ease, box-shadow .15s ease;
+}
+.read-more a::after {
+  content: " →";
+}
+.read-more a:hover {
+  background: #1d4ed8;
+  transform: translateY(-1px);
+  box-shadow: 0 3px 8px rgba(37, 99, 235, .35);
+}
+
+/* 文章配图：圆角 + 边框 */
+figure img {
+  border-radius: 10px;
+  border: 1px solid rgba(128, 128, 128, .35);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, .06);
+}
